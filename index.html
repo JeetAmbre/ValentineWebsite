@@ -1,1 +1,88 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You ❤️</title>
+
+  <!-- Romantic Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- Opening Screen -->
+  <section class="hero">
+    <h1>Hey sweetie, yes you !</h1>
+    <p>I wanted to ask smtg 👉👈</p>
+    <div class="scroll-down">Scroll ↓</div>
+  </section>
+
+  <!-- Stylish Praise Sections -->
+  <section class="praise"><h2>You have the most beautiful eyes.</h2><p>I could adore them forever.</p></section>
+  <section class="praise"><h2>You have the cutest smile.</h2><p>Your smile could fix even my worst days.</p></section>
+  <section class="praise"><h2>You have the most caring heart.</h2><p>With you, everything feels calmer.</p></section>
+  <section class="praise"><h2>You have the most divine soul.</h2><p>Doing nothing with you feels perfect.</p></section>
+  <section class="praise"><h2>You’re My Safe Place.</h2><p>Even my weird moods feel safe with you.</p></section>
+  <section class="praise"><h2>You are the one more chance i got with life.</h2><p>That’s the truth.</p></section>
+
+  <!-- Memory Sections (Alternating Layout) -->
+  <section class="memory-row">
+    <img src="photo1.jpg"><div><p>Can i be your personal chef ?</p></div>
+  </section>
+
+  <section class="memory-row reverse">
+    <img src="photo2.jpg"><div><p>Can i be your helping hand ?</p></div>
+  </section>
+
+  <section class="memory-row">
+    <img src="photo3.jpg"><div><p>Can i be your personal photographer ?</p></div>
+  </section>
+
+  <section class="memory-row reverse">
+    <img src="photo4.jpg"><div><p>Can i be your santa claus ?</p></div>
+  </section>
+
+  <section class="memory-row">
+    <img src="photo5.jpg"><div><p>Can i take your away from everything bad ?</p></div>
+  </section>
+
+  <section class="memory-row reverse">
+    <img src="photo6.jpg"><div><p>Can i make you blush forever ? </p></div>
+  </section>
+
+  <!-- Final Question -->
+  <section class="question">
+    <h2>If your answer to above questions is Yes then..........<br>Will you be my Valentine?</h2>
+    <div class="buttons">
+      <button id="yesBtn">YES ❤️</button>
+      <button id="noBtn">NO 🙈</button>
+    </div>
+  </section>
+
+  <!-- 404 Screen -->
+  <section id="errorScreen" class="error-screen hidden">
+    <div class="glass error-box">
+      <h1>404</h1>
+      <h2>Option Not Found 🥱</h2>
+      <p>The choice “No” doesn’t exist in our love story.</p>
+      <button onclick="goBack()">Okay okay, I’ll choose YES 😌</button>
+    </div>
+  </section>
+
+  <!-- YES Final Screen -->
+  <section id="yesScreen" class="yes-screen hidden">
+    <div class="glass yes-box">
+      <h1>You just made me the happiest person alive ❤️</h1>
+      <p>But wait… this isn’t the only surprise.</p>
+      <p class="gift-hint">
+        Soon, a little piece of our story — disguised as a game — will find its way to you 🎁
+      </p>
+    </div>
+  </section>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
